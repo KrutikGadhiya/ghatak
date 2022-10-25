@@ -4,6 +4,7 @@ export interface ButtonPropTypes {
   children: React.ReactElement | string;
   disabled?: boolean;
   fullWidth?: boolean;
+  htmlType?: "submit" | "button" | "reset";
   loading?: boolean;
   prefix?: React.ReactElement | string | undefined;
   rounded?: "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full";

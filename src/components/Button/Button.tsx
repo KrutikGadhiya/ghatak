@@ -9,6 +9,7 @@ const Button = ({
   children,
   disabled,
   fullWidth,
+	htmlType,
   loading,
   prefix,
   rounded,
@@ -19,6 +20,7 @@ const Button = ({
 }: ButtonPropTypes) => {
   return (
     <button
+		type={htmlType || "button"}
       className={`button ${className || ""} ${size ? size : "md"} ${
         type ? type : "primary"
       } ${rounded ? rounded : "rounded-md"} ${fullWidth ? "fullWidth" : ""} ${

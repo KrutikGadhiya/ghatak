@@ -1,39 +1,47 @@
 # Button Component
 
-A Button that takes label text as a mandatory prop and returns a React Button component.
-
 ## **_List of props_**
 
 ```typescript
 
-label: string - text to be displayed inside the button
-
-size?: string - "lg" | "md" | "sm"
-
-type?: string  - normal html button types - "button" | "submit" | "reset"
-
-btnType?: string  - "primary" | "secondary" | "ghost"
-
 className?: string - additional css to be applied
+
+disabled?: boolean - button is disabled or not - true | false
+
+fullWidth?: boolean - whether the button has fullwidth or not - true | false
+
+htmlType?: string - normal html button types - "button" | "submit" | "reset"
+
+loading?: boolean - loading state for button - true | false
 
 onClick?: () => void - for click behavour
 
+prefix?: string | JSX-Element
+
+rounded?: string - border radius of button - "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full"
+
 shape?: string - "default" | "rounded" | "pill"
+
+size?: string - "lg" | "md" | "sm"
 
 styles?: object - inline styles to be applied
 
-isDarkMode?: boolean - default: false
+suffix?: string | JSX-Element
+
+type?: string  - button types - "primary" | "secondary" | "success" | "danger" | "warning" | "info" | "light" | "dark" | "link"
 
 ```
 
 ## **_Example_**
 
 ```typescript
-import { Button } from 'react-component-lib'
+import { Button } from "kk-react-components";
 
 const App = () => {
-    return <div className="App">
-        <Button label="Hello World" style='default' isDarkMode={true}>
+  return (
+    <div className="App">
+      <Button type="primary">Hello World</Button>
     </div>
-}
+  );
+};
 ```

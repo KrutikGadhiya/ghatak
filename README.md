@@ -1,8 +1,6 @@
-[![Node CI](https://github.com/Aakash1103Jha/react-component-lib/actions/workflows/node-ci.yml/badge.svg?branch=master)](https://github.com/Aakash1103Jha/react-component-lib/actions/workflows/node-ci.yml) ![GitHub repo size](https://img.shields.io/github/repo-size/Aakash1103Jha/react-component-lib)
-
 # React Component Library
 
-A collection of different UI components for React projects, written in TypeScript.
+A collection of different UI components for React projects.
 
 ## Stack:
 
@@ -18,20 +16,16 @@ A collection of different UI components for React projects, written in TypeScrip
 
 1. For now, you can download a zip file of this project, open it up and run `npm i` to install all the dependencies.
 2. Once done, run `npm link` to create a global link for this project on your local system.
-3. From any project that you want to use this library in, run `npm link react-component-lib`
-
-## Request New Components
-
-This project is in it's early stages of development. I have started with the simpler UI elements and will gradually move towards more complex ones. If you have any ideas, or want some component to be included, please be sure to add it as a `new request` in the Issues section.
+3. From any project that you want to use this library in, run `npm link kk-react-components`
 
 ## References
 
-1. How to write stories - [Storybook Official Docs]
+1. How to write stories - [Build Your React Component Library with TypeScript and Rollup]
 
-[storybook official docs]: https://storybook.js.org/docs/react/writing-stories/introduction
+[build your react component library with typescript and rollup]: https://javascript.plainenglish.io/react-component-library-with-ts-and-rollup-77aca0c727bf
 
 ---
 
 ```json
-{ "version": "0.0.1 - beta" }
+{ "version": "0.0.1 - alpha" }
 ```
