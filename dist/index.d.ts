@@ -16,4 +16,17 @@ interface ButtonPropTypes {
 
 declare const Button: ({ className, children, disabled, fullWidth, htmlType, loading, prefix, rounded, size, type, suffix, ...props }: ButtonPropTypes) => JSX.Element;
 
-export { Button };
+declare type TagPropTypes = {
+    className?: string;
+    children: React.ReactNode | string;
+    opacity?: number;
+    rounded?: "rounded-sm" | "rounded-md" | "rounded-lg" | "rounded-full";
+    size?: "sm" | "md" | "lg";
+    translucentBg?: boolean;
+    type?: "primary" | "secondary" | "success" | "danger" | "warning" | "info" | "light" | "dark" | "link";
+    [x: string]: any;
+};
+
+declare const Tag: ({ className, children, rounded, size, translucentBg, type, ...props }: TagPropTypes) => JSX.Element;
+
+export { Button, Tag };
