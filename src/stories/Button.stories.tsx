@@ -19,7 +19,7 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  prefix: "hellostart",
+  children: "hellostart",
   loading: false,
 };
 

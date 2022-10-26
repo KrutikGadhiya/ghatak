@@ -1,5 +1,6 @@
 import React, {type FC } from "react"
 import "./Button.css"
+import "../../globals.css"
 import "../../colors.css";
 
 import { ButtonPropTypes } from "./ButtonPropTypes"

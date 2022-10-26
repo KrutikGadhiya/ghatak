@@ -1,0 +1,89 @@
+.tag {
+  width: max-content;
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+/* size */
+.tag.sm {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+}
+.tag.md {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+}
+.tag.lg {
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+}
+
+/* background colors for translucentBg */
+/* bg colors */
+.tag.primary.translucentBg {
+  color: var(--blue-500);
+  background-color: var(--blue-100);
+}
+.tag.secondary.translucentBg {
+  color: var(--fuchsia-500);
+  background-color: var(--fuchsia-100);
+}
+.tag.success.translucentBg {
+  color: var(--green-500);
+  background-color: var(--green-100);
+}
+.tag.danger.translucentBg {
+  color: var(--red-500);
+  background-color: var(--red-100);
+}
+.tag.warning.translucentBg {
+  color: var(--yellow-500);
+  background-color: var(--yellow-100);
+}
+.tag.info.translucentBg {
+  color: var(--sky-500);
+  background-color: var(--sky-100);
+}
+.tag.light.translucentBg {
+  color: var(--gray-500);
+  background-color: var(--gray-100);
+}
+.tag.dark.translucentBg {
+  color: var(--gray-700);
+  background-color: var(--gray-100);
+}
+
+/* border */
+.tag.primary {
+  border: 1px solid var(--blue-500);
+}
+.tag.secondary {
+  border: 1px solid var(--fuchsia-500);
+}
+.tag.success {
+  border: 1px solid var(--green-500);
+}
+.tag.danger {
+  border: 1px solid var(--red-500);
+}
+.tag.warning {
+  border: 1px solid var(--yellow-500);
+}
+.tag.info {
+  border: 1px solid var(--sky-500);
+}
+.tag.light {
+  border: 1px solid var(--gray-500);
+}
+.tag.dark {
+  border: 1px solid var(--gray-700);
+}
+.tag.link {
+  border: 1px solid var(--blue-500);
+}
+
+.tag.link {
+  color: var(--blue-500);
+  background-color: var(--blue-100);
+}
